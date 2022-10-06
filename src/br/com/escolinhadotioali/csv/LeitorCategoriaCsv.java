@@ -29,8 +29,9 @@ public class LeitorCategoriaCsv {
 			String status = valores[4];
 			String icone = valores[5];
 			String cor = valores[6];
+			String preco = valores[7];
 			
-			CategoriaCsv categoria = new CategoriaCsv(nome, codigo, ordem, descricao, status, icone, cor);
+			CategoriaCsv categoria = new CategoriaCsv(nome, codigo, ordem, descricao, status, icone, cor, preco);
 			
 			categorias.add(categoria);
 			
